@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="static/messstyle.css"
+	</head>
+
+	<body>
+
+		<center>
+			<div class="container">
+			<span class="text1">PREDICTION </span> 
+			<br>
+			<br>
+			<br>
+			{%if data==0%}
+			<span class="text2">You do not have chances of heart failure. <span>
+
+				{{pred}}
+
+			{%else%}
+			<span class="text2"> You need to consult the doctor because you might encounter a heart failure. </span>
+			<br>
+			<br>
+			<br>
+		    </div>	
+
+			{%endif%}
+			<h6> Thank You! </h6>		
+
+
+		</center>
+
+	</body>
+	
+</html>
